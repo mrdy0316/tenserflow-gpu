@@ -1,11 +1,6 @@
 # tenserflow-gpu
 
-Dockerfileのビルド
-```
-docker build . -t mnist
-```
-
 コンテナの生成
 ```
-docker run --runtime=nvidia -it mnist
+docker run --runtime=nvidia -it mrdy0316/mnist:latest
 ```
