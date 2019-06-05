@@ -2,5 +2,5 @@
 
 コンテナの生成
 ```
-docker run --runtime=nvidia -it mrdy0316/mnist:latest
+docker run --runtime=nvidia -it mrdy0316/tenserflow-gpu:latest
 ```
